@@ -1,0 +1,44 @@
+1. in index.html file there is div with the id root. 
+
+2. package.json e react library install deya naki ta check kora jay.
+
+2. react r react dom 2 ta library.
+
+3. ei library gulo download hoye node modules e giye install hoy.
+
+4. import React from 'react';
+	ekhane react library theke React k amra import 	korechi
+5. import ReactDOM from 'react-dom/client';
+	ekivabe import react-dom/client theke ReactDOM k import korechi.
+
+r ei shob package gulo package.json diye download hoy r node_modules e giye install hoye thake. amra porobortite node_modules theke eder k import korte pari amader index.js e.
+
+6. class:
+	ReactDOM hocche ekta class.
+
+class's syntax: 
+class User {
+	
+}
+
+const user = {
+	firstName: "Habibur",
+	lastName: "Rahman",
+	print: ( )=> {
+	console.log(this.firstName, " ", this.lastName);
+}
+
+}
+/* ekhane {} curley braces ta holo object jokhon amra const variable or onno kono variable er vitor rakhi tokhon ta object hishebe kaj kore.
+
+// uporer class tir object er 3 ti property ache. 
+	1.firstName er value hocche Habibur.
+	2. lastName er value hocche Rahman.
+
+	3. print er value hocche ekti anonymous arrow function ja firstname r lastname k console korche.
+	
+Notes: object er vitor various property thake r bivinnto property r value o thake.
+
+
+* jodi ami user k print kori tahole user er value ta hubuhu amra print korte parbo.
+*/

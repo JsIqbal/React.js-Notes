@@ -1,0 +1,15 @@
+1. install git.
+2. github is a database.
+3. create a new repository.
+4. repository is a database.
+5. create repository.
+6. create a local folder & open it using vs code.
+7. check if git exist using git staus.
+8. create a file in the local folder.
+8. check git status.
+9. git init.
+10. ls - list all.
+11. ls -a - list all along with hidden files & folders.
+
+
+git fetch mane shobar branch amake diye daw.

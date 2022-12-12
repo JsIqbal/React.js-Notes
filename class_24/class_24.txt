@@ -1,0 +1,7 @@
+practicing the youtube project.
+
+finding questions.
+
+trying to solve.
+
+checking out the axios library.

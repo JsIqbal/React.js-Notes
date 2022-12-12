@@ -1,0 +1,68 @@
+# JavaScript:
+1. basic (variable, if...else, for loop, function)
+2. Execution context:
+    a. part:
+	i.memory component or variable environment.
+        ii. code component or thread of execution.
+    b. phases:
+        i. creation phase or memory creation phase;
+        ii. execution phase or code execution phase;
+3. scope, scope chain, lexical environment, shadowing.
+4. closure.
+5. let, const.
+6. temporal dead zone.
+7. script scope, block scope, global/local scope.
+8. How modern browser works:
+    i. call stack;
+    ii. event loop;
+    iii. heap;
+        a. callback que or task que;
+        b. microtask que;
+9. Array Class & It's Functions: map, forEach, filter, find.
+10. Object destructuring, spread operator.
+11. class, object, constructor, inheritance.
+12. hoisting.
+13. functions:
+    1. anonymous function.
+    2. function statement or function declaration.
+    3. function expression.
+    4. arrow function.
+    5. callback function.
+    6. first class function.
+    7. parameter vs arguments.
+14. this keyword
+
+#Extras:
+15. promise,
+16. callback hell,
+17. async/await.
+18. prototyping.
+19. prototype chaining.
+20. call, bind, apply.
+21. garbage collector.
+
+# Operating system:
+1. process.
+2. thread.
+3. context switching.
+4. RAM, hard disk, processor, register set, PCB(process control block)
+
+# react:
+1. npm.
+2. package.json.
+3. project structure using create-react-app.
+4. import.
+5. how to push the application to the html file.
+6. jsx element. converting to js.
+7. state.
+8. props.
+9. parant component, child component.
+10. onClick.
+11. how react works.
+----------------------------------------
+
+1. App.component is the parant component of Box.component.
+2. request to the server computer.
+3. server returning a dom.
+4. dom get's pushed in the virtual dom.
+5. work of the ReactDOM.

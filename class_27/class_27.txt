@@ -1,0 +1,3 @@
+1. Convert the class components into functional components in yoututbe project.
+
+2. research the functional components.

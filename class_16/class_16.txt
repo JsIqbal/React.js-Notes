@@ -1,0 +1,39 @@
+react=
+1. component. what it is?
+2. reusable component. (box example)
+
+js=
+1. map function in js
+2. object destructuring.
+3. arrow.
+----------
+flow:
+---
+1. create 3 button div in the box.component.js as example of multiple box. hence the creation of react!
+
+2. import box in app.
+
+3. render 4-5 box element in app.
+
+4. <box /> understanding jsx element.
+
+5. jsx element conversion to javascript.
+
+6. React.createElement(element, null, innerText)
+
+7. components...app.component.js
+
+8. using css by marginLeft...on the part - use the capital letter.
+
+9. html e js use korte hole curley braces use korte hoy {}
+
+10. html things array [] as a div
+
+11. kono array.map() likhle js vitore vitore array ta k object e convert kore.
+
+12. js array k vitore vitore object er chadore muriye ney.
+
+13. map() ekti first class function ja expect kore argument e ekti callback function.
+14. object destructuring 
+15, map function always returns an array.
+16. array mane list

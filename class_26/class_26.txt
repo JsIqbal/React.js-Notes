@@ -1,0 +1,22 @@
+things to show:
+
+0. Image: Poster;
+1. Id;
+2. Rank;
+3. Full Title;
+4. Imdb Rating;
+5. Imdb Rating Count;
+6. Your Review;
+
+* Full install : use yarn install instead of npm install. 
+
+* yarn install: npm install -g yarn
+* package install : yarn add <package name>
+* package remove : yarn remove <package name>
+
+--------------
+1. go to link: https://imdb-api.com/api
+2. go to ticket: https://imdb-api.com/Account/Tickets
+3. go to profile: https://imdb-api.com/Identity/Account/Manage
+4. copy the key:<your key>
+5. go to swagger: https://imdb-api.com/swagger/index.html

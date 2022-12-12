@@ -1,0 +1,11 @@
+1. npm install -g surge : installing surge globally.
+
+2. npm run build : building a project to deploy in surge.
+
+3. surge -p build : deploying a project in surge.
+
+4. npmjs.com : node package manager investigations.
+
+5. stopping - button at 0. 
+
+6. modify the button color.

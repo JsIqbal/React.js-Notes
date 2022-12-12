@@ -1,0 +1,232 @@
+1. project flow.
+
+2. html ->
+	tag, element, property, start tag, end tag, sibling, parant, child
+	tags: h1, p, img.
+
+	start tag: <h1>, <p>, <img>
+
+	end tag: </h1>, </p>, <img>
+    
+	element: <h1> hello </h1>
+
+	another example of element:
+	<div>
+		<p>
+			<h1> hello </h1>
+			<p> hello </p>
+		</p>
+	</div>
+
+3. . means current directory or home / current working directory.
+4. pwd - present working directory
+
+5.  There are 2 types of paths:
+        1. absolute path; 
+        2. relative path;
+
+* web pack, babel.
+	babel:
+	babel loader, babel core, env something!
+
+6. ES6: const, let, arrow function, async function.
+
+7. to convert es6 to es5, we need to use babel.
+
+8. React.Fragment used as a div.
+===========
+
+1. create-react-app globally install korlam.
+
+2. create-react-app diye ekta app toiri korlam.
+
+3. jei app ta toiri korlam take chatai korlam.
+
+4. Flow of the app:
+	* React always starts from the index.js file
+	* flow bujhar jonno amra App.js file theke shuru 	  korlam.
+---------the flow----------
+
+{
+
+1. public
+	- index.html
+2. src
+	- index.js
+	- app.js
+
+* In our App.js file:
+
+1. import react (component class) from the npm installed react library package.
+
+2. Extend the App class to Component class.
+
+3. App class owns all the property of the component class.
+
+4. App class property render method returns the html elements upon the time of calling it.
+
+5. export the App class from the app file to access it from other files.
+
+* In our index.js file:
+
+1. import React object from the npm installed react library package.
+
+2. import ReactDOM object from npm installed react-dom/client package.
+
+3. import App from the current files source directory.
+	# pwd = present working directory.
+	2 types of path:
+	1/ Absolute path;
+	2/ relative path;
+4. 
+----------- index.js er code ta-------
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const div = document.getElementById('root');
+
+1. create-react-app globally install korlam.
+
+2. create-react-app diye ekta app toiri korlam.
+
+3. jei app ta toiri korlam take chatai korlam.
+
+4. Flow of the app:
+	* React always starts from the index.js file
+	* flow bujhar jonno amra App.js file theke shuru 	  korlam.
+---------the flow----------
+
+{:::::::::::::::::::::::::::::::::::::::::::::::::
+
+1. public
+	- index.html
+2. src
+	- index.js
+	- app.js
+
+* In our App.js file:
+
+1. import react (component class) from the npm installed react library package.
+
+2. Extend the App class to Component class.
+
+3. App class owns all the property of the component class.
+
+4. App class property render method returns the html elements upon the time of calling it.
+
+5. export the App class from the app file to access it from other files.
+
+* In our index.js file:
+
+1. import React object from the npm installed react library package.
+
+2. import ReactDOM object from npm installed react-dom/client package.
+
+3. import App from the current files source directory.
+	# pwd = present working directory.
+	2 types of path:
+	1/ Absolute path;
+	2/ relative path;
+4. 
+----------- index.js er code ta-------
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const div = document.getElementById('root');
+
+const root = ReactDOM.createRoot(div);
+root.render(
+    <App />
+);
+------------------------------------
+5. we have created a variable named div.
+
+6. inside div we have accessed the getElementById( ) function using the object named document.
+
+7. we have passed the id of the html div in the getElementById('root') functions argument, which returns an object.
+
+8. we recieve the object in the div variable, which is now an object.
+
+9. pass the div object as argument in the ReactDOM object's createRoot(div) functions paranthesis.
+
+10. recieve another object from createRoot( ) and put the object in the root variable, which is now an object.
+
+11. root.render(<App/>); this line is equivalent =>
+/*
+    const app_obj = new App ( ); 
+// { render : function ( ) { } }
+
+    app_obj.render( ); 
+// upon the time of calling it returns an html element.
+*/
+
+12. render call howar shathe shathe chole gelam App.js file e!
+	
+}::::::::::::::::::::::::::::::::::::::::::
+
+{+++++++++++++++++++++++++++++
+# chole ashlam App.js file e =>
+
+import React,{ Component } from "react"; // importing Component class from react library.
+
+/*------------
+  class Component
+  {
+    setState(updatedState) // recieves the object as parameter.
+    {
+      this.state_ob = updatedState;
+      this.render( );
+    }
+  }
+*/------------
+
+class App extends Component // Inheriting Component class from App class
+{
+  constructor( ) // this is the constructor of the App class
+  {
+    super( ); // this is the constructor of the inherited class
+  }
+
+  state_ob = { number: 10,} // declaring an object. It has one property named number.
+
+  increament = ( )=> 
+  /* after calling the increament method. caller object of the render function can use the scope for being arrow function.
+  */
+
+  {
+    this.state_ob.number = this.state_ob.number +1; // updating the number property in the state_ob.
+    // here this is the object which called the render function.
+
+    this.setState(this.state_ob); // method of the Component class. look in 86-95 lines.
+  }
+
+  decreament = ( )=>
+  {
+    this.state_ob.number = this.state_ob.number -1;
+    this.setState(this.state_ob);
+  }
+  render( ) // this is the method property of the App class.
+  {
+    return( // upon the time of call. render function returns a html element.
+
+      <div> // opening of a html tag.
+
+        <button onClick={this.decreament}>-</button> 
+
+        {this.state_ob.number} // accessing one objects property from another object using double (.)
+
+        <button onClick={this.increament}>+</button> 
+        /* upon click on button increament method will be called by the object that called the render function. React itself called this function and the object that called the render method can use the scope in the increament methods scope.
+        */
+
+      </div> // closing of a html tag.
+
+    )
+  }
+}
+export default App; // exporting the App class so that it can be accessed from index.js
+
+
+}+++++++++++++++++++++++++++++

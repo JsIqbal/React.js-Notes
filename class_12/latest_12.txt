@@ -1,0 +1,42 @@
+1. create-react-app holo node package manager er ekta package.
+# create-react-app package ti k amra globally install korte pari( npm install -g create-react-app ) ei comand diye.
+
+/------habib vai---------
+# Set up the project
+1. installed create-react-app globally
+2. create a react application using create-react-app
+3. open the application by vs code
+4. clean the project (delete some files)
+5. npm run start
+
+# Way of clean up
+1. public
+	- index.html
+2. src
+	- index.js
+	- app.js
+
+# Project flow
+1. index.html -> <div id="root"> 
+			
+		 </div>
+
+2. react -> dynamically keep the full application 
+	inside the div (id = root)
+
+3. index.html -> <div id="root"> 
+			 <h1> Hello Habib </h1>
+		 </div>
+
+4. single page application -> html file -> 1 
+
+# Study:
+
+
+
+
+
+application -> <h1> Hello Habib </h1>
+/------habib vai-------------
+# react er guruttopurno feature hocche..jeituku information amader application er moddhe changes ante chay she server theke shudhu seituku information e fetch kore anbe , bad baki shob information same ager motoi thakbe..jar fole user data hugely save hocche! react khoroch komiye diyeche.
+

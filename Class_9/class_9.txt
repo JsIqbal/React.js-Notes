@@ -1,0 +1,104 @@
+1) PCB or Process Control block stays in Ram.
+
+2) Process er unit = thread.
+
+3) Process er moddhe context switching holo process concurrency.
+
+4) Thread er moddhe context switch korle take bole thread concurrency.
+
+------------------
+
+5) Whenever a process gets created,
+by default it has one thread created in it. All the work is done in the thread.
+
+6) Our Javascript is a single thread programming language.
+
+7) The thread talks with the processor. through the pointing register.
+
+8) JavaScript can never do 2 work at a time.
+
+9) Memory component emon ekta environment create kore jekhane variable gulo store hoy. E jonno bole memory component or variable environment.
+
+10) thread e line by line code execute kore.
+
+11) Code component or thread of execution: 1 ta thread k bujhacche.
+
+12) JavaScript er code component hocche 1ta thread.
+karon amader execution context er moddhe code component 1 line kore code execute kore..tar mane bujhai jacche j amader code component hocche ekta thread.
+
+13) ekmatro pointing register er jonnoi line by line code execute hocche. r amader JS er code component jokhon jei line e thake tokhon sei line execute hoy.
+
+14) tar mane: jodi 5 ta execution context hoy tahole ultimately 5 number execution context tar code component ta thake original thread. baki execution context gulo hold hoye thake.
+
+15) 1 thread e js er code line by line execute hoy.
+
+16) next class question: loader + data fetch. 2ta alada thread. tahole js kivabe single thread?
+
+
+*************
+
+
+
+---------------
+17) browser thake computer e or mobile e..jader k bola hoy device.
+smart jekono kichui ekta device.
+
+18) oi device e various sensor thakte pare. ei sensor gulo k amra various software diye access korte pari.
+
+19) device er various sensor k bole resource. ei resource j use kore eta tar hoye jay.
+
+20) ei sensor gulo k access korar jonno browser company kichu code likhse.
+
+21) browser er nijessho kichu resource ache. 
+	1. Timer;
+	3. Geo Location;
+	4. Url;
+	5. Console;
+	6. Local storage etc.
+	and many many other.
+
+22) dekha jacche j kichu resource browser er , kichu resource device er . jemon : camera, audio output etc.
+
+23) device er resource k access korar jonno browser er kichu code ase. Jegulo k bola hoy web apis.
+
+	jemon:
+	1.setTimeout( );
+	2.Dom apis(document.*)
+	3. fetch( );
+	4.localStorage;
+	5. console.log();
+	6.location;
+	etc
+
+24) web apis bananor uddessho: browser er resource k access korar jonno.
+
+
+25) js ekmatro execute hoy browser er moddhe thaka js engine er moddhe.
+
+26) jemon ei ei sensor device e thakle eder k access korar jonno browser er ei ei code, ja holo apis.
+
+27) javascript code bujhte hole browser lagbe , karon js engine ta browser e thake..
+
+28) ekmatro browser er js engine e code execute kora jay.
+
+29) Browser er heart holo Javascript Engine.
+
+30) Javascript engine javascript er code gulo execute kore.
+
+31) JS engine er vitor thake call stack.
+
+32) Call stack er vitor thake various execution contexts.
+
+33) Browser company nijera nijeder js engine banay.
+
+34) alada alada browser er alada alada js engine howar jonno eki code alada alada browser e run na o korte pare thik moto.
+
+35) Global execution context e creation phase shuru howar agei web apis gulo memory component e dhuke jay.
+
+36) web apis jiboneo javascript na.
+
+37) browser j language e banano hoy , oi browser er web api gulo oi eki language diye banano hoy.
+
+38) execution phase e (console.log) er moto web api call hole amader code component sei web api jake amra console name chini take dak diye take diye kaj korabe. log hoo ekta function. ja amra pore janbo. console.log( ).
+
+39) js er 1 ta thread diyei multiple kaj kivabe kore ta amra janbo next class e.

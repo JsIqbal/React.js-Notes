@@ -1,0 +1,56 @@
+react er uddessho:
+
+1. single page web application.
+2. mb khoroch komaya dise.
+3. jototuku proyojon tototuku data request korbe server theke.
+
+4. node modules delete kore, npm install dile abar deendencies chole ashbe.
+
+3. understanding jsx element creating an object.
+4. understanding map function:
+
+so, we are using the map in an array.
+
+array.map(callback) ; // মেপ ফাংশনটি মুলত এরে ক্লাস এর একটি মেথড প্রোপার্টি। যখন কোন এরে এর পর আমরা . ডট অপারেটর ব্যাবহার করি, ঠিক তখনি ঐ এরে টি এইভাবে এরে ক্লাসটির অবজেক্ট হয়ে যায় ! 
+
+    /*
+	const ob = [1,2]
+    class Array {
+
+        map() {
+        
+        }	
+
+    }
+    const ob = [] mane://
+    const ob = new Array();//
+	ob.map( );
+    */
+
+আর যেহেতু সে এখন এরে ক্লাস এর অবজেক্ট, শুধু মাত্র তার জন্যই সে map( ) ফাংশনটিকে . ডট অপারেটর দিয়ে এক্সেস করতে পারছে, কারন সে ভিতরে ভিতরে একটি অবজেক্ট। 
+
+তার মানে এরে একটি অবজেক্ট (প্রমানিত) !
+
+5. map function ti call hole...tar vitore ekti callback function thake... r callback function tar structure thake onekta ei rokom:
+
+function = (number, index) => {
+	return console.log("something");
+}
+* ei number holo sei array er vitorer number or values jei array k diye map function k call kora hoyeche...r ei index holo sei ek e array er indexing..ja shuru hoy 0 theke..
+
+array.map(function); // pass korle shob shuddha vitte dhukka jay.
+
+map function infrustructure :
+
+class Array {
+            map(callBack) { // here callBack is the singleBox function
+                arra = []
+                for (i = 0; i<= this.length; i++) {
+// ekhane this hocche shei lok j map function k call korse. map k call korse ekti array. r oi array er shonkhai hocche lenght.
+                    const ans = callBack(ar[i], i);
+                    arra.push(ans); 
+// the value of the ans variable which is the element that singleBox returned.
+                }
+                return arra;
+            }
+        }

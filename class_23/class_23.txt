@@ -1,0 +1,44 @@
+1. Revise the React Life cycle method.
+
+# project flow:
+    1. google developer console.
+    2. enable api & services.
+    3. name the project.
+    4. create the project.
+    5. search: youtube videos.
+    6. select youtube data api v3.
+    7. enable youtube data api v3.
+    8. create credentials:
+        i. select public data -> press next.
+        ii. copy the api key.
+        iii. press done button.
+    9. select credentials & check the api & key.
+    10. Edit the api key if you want from the ... in the right corner. click there and generate new key.
+    11. search & click youtube data apis docs.
+    12. click search for contents.
+    13. select the (https://www.googleapis.com/youtube/v3/search) from the http line.
+
+    #postman:
+        1. select postman.
+        2. create a new collection.
+        3. name the collection by the application name.
+        4. create a new get request.
+        5. name the new get request.
+        6. select the params from the tab under the get method.
+        *
+        key     value
+        ---     ----
+        type  |  video
+        part  |  snippet
+        key   |  <your key>
+        q     |  tahsan
+
+    14. npm install axios.
+    15. REST methods or Restful services, rest service, rest apis:
+        1. get: to get something from somewhere.
+        2. post: to create something.
+        3. put: to update a post.
+        4. patch: to partially update something.
+        5. delete: to delete a post.
+
+*** Template literals ` `

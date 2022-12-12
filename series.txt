@@ -1,0 +1,49 @@
+1. execution context.
+2. call stack + local execution context.
+3. Hoisting
+4. 	scope,
+	lexical environment, 
+	scope chain, 
+	closure.
+
+	function declration/ function statement 		are same.
+
+	function statement,
+	function declaration,
+	anonymous function,
+	named function expression,
+	parameter vs arguments,
+	first class function,
+	arrow function,
+	callback function.
+	shadowing.
+5. class 4 er half.
+6. closure + try to debug.
+7. clouser. + block, script,global. let,const.
+8. operating system.
+9. Operating system.
+10. Modern browser, micro task que, callback que. threadpool.
+11. creating react app.
+12. app.js,index.js understanding class.
+13. more class and object index.js,app.js.
+14. onclick, arrow function, setState.
+15. creating increament and decremeant in app.js
+16. using map()
+17. parant component to child component props passing, array in clear method, premitive, non premitive.
+18. passing the props in jsx eliments. project counter. forEach, map, filter, find native methods for array class.
+19. Introducing React dom. Creating the video browser project. youtube api, google console.
+20. Deviding the video browser project in components.
+21. novoresume, zety
+22. class component life cycle phase & methods.
+23. full fledge youtube project.
+24. fixing bug in youtube project.
+25. github, git. theory, example.
+26. IMDb project.
+27. Introducing functional components.
+28. Stateless functional components. React hooks. UseEffect, useState.
+29. React router dom.
+
+
+
+
+

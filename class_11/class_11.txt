@@ -1,0 +1,29 @@
+1. install node.js
+
+2. install git bash
+	check in bash:
+		1.node --version
+		2.npm --version
+
+3. npm i -g create-react-app
+(creating the create-react-app option globally.)
+
+	check in bash:
+		1.create-react-app --version
+
+4. pwd.
+
+5. cd Desktop/
+
+6. mkdir react
+
+7. cd react
+
+8. create-react-app first-app
+---------
+
+app er vitor dhuke:
+	git bash e:	code .
+likhle auto oi create-react-app er app ta vs code e open hoye jabe
+
+9. npm run start.

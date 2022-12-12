@@ -1,0 +1,27 @@
+1. React Hooks or Life cycle method or Life cycle of a react component:
+    A react component has 3 phases:
+        i. Mounting phase(Born):
+            # Mounting Phase life cycle Methods:
+                a. Constructor()
+                b. render() // native method of Component. upon render call virtual dom is updated.
+                c. componentDidMount().
+
+        ii. Updating phase(update):
+            * Updating phase will only happen if props or state changes in a component.
+                # Updating Phase life cycle Methods:
+                    * pre requisite: this.setState() or props pass triggers the updating phase.
+                    b. render()
+                    c. componentDidUpdate()
+
+        iii. Unmounting phase(die):
+            # Unmounting Phase life cycle Methods:
+                a. componentWillUnmount()
+
+    manush:
+    a. born : kanna kore, dudh khay.
+    b. baby: learn.
+    c. kishore: khele, school.
+    d. jubok: taka earn kore, biye kore.
+    e. buro: boshe boshe khay, rastar mor e meye dekhe.
+    f. dead: prithibi theke chole jay.
+
