@@ -48,6 +48,7 @@ january 13, 2023
 1. npx npm-chech-updates -u
 	npm install
 
+2. npx json-server -w data/db.json -p3500
 
 
 
