@@ -42,7 +42,11 @@
 27. Introducing functional components.
 28. Stateless functional components. React hooks. UseEffect, useState.
 29. React router dom.
+---------------------
+january 13, 2023
 
+1. npx npm-chech-updates -u
+	npm install
 
 
 
