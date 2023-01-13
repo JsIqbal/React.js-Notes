@@ -49,6 +49,6 @@ january 13, 2023
 	npm install
 
 2. npx json-server -w data/db.json -p 3500
-
+3. ctrl + , => search -> bracket pair
 
 
