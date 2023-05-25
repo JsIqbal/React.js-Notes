@@ -33,7 +33,7 @@
 
 // 2. What is Hoisting ?
 // Ans: Memory allocation in the creation phase is called hoisting.
-// কাউকে কল করার অনেক আগেই 
+
 // (মেমোরি তে এলোকেট হয়ে থাকাই হোয়েস্টিং।)
 
 // 3. What is a scope chain?
