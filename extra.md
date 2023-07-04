@@ -1,4 +1,4 @@
-// generator function
+# generator function
 ```javascript
 function newUser(x, y) {
   var user = {
@@ -8,8 +8,10 @@ function newUser(x, y) {
   return user;
 }
 var iqbal = newUser('Jhum', '24');
+```
 
-// constructor function
+# constructor function
+```javascript
 function newUser(x, y) {
   this.name = x;
   this.age = y;
